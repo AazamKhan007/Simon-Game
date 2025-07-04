@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="switch-container">
+  <label class="switch">
+    <input type="checkbox" id="night-toggle">
+    <span class="slider"></span>
+     </label>
+    </div>
+
+    <h3>
+      Highest Score: 0
+    </h3>
+
+    <h1>Simon Game</h1>
+    <h2 id="game-status-laptop" class="laptop-msg">Press any key to start the game</h2>
+    <h2 id="game-status-phone" class="phone-msg">Tap anywhere to start the game</h2>
+
+
+    <div class="btn-container">
+        <div class="line-one">
+        <div class="btn red" type="button" id="red"></div>
+        <div class="btn yellow" type="button" id="yellow"></div>            
+        </div>
+        <div class="line-two">
+        <div class="btn green" type="button" id="green"></div>
+        <div class="btn purple" type="button" id="purple"></div>            
+        </div>
+
+    </div>
+
+    <footer class="game-footer">
+  All credits to <b class="credit-name">Aazam Khan</b> &copy; 2025
+</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
