@@ -19,5 +19,5 @@ Add your own meme sound files into the project directory (e.g., `lose 1.mp3`, `l
 
 ---
 
-💻 Demo
-👉 (Optional) [Add your GitHub Pages or CodePen link here if you deploy it!]
+💻 Live Link
+👉 https://aazamkhan007.github.io/Simon-Game/
