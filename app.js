@@ -12,6 +12,8 @@ let laptop = document.querySelector("#game-status-laptop");
 let phone = document.querySelector("#game-status-phone");
 
 let clickSound = new Audio("click.mp3");
+clickSound.preload = "auto";
+
 let loseCount = 0; 
 let memeSoundFiles = [
     "lose 1.mp3",
@@ -125,8 +127,9 @@ function btnPress() {
     let btn = this;
     userFlash(btn);
 
-    // Create new Audio instance so it plays each time cleanly
-    new Audio("click.mp3").play();
+    clickSound.currentTime = 0;
+    clickSound.play();
+
 
 
     userColor = btn.getAttribute("id");
